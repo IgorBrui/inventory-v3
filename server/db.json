@@ -1,0 +1,29 @@
+{
+  "rooms": [
+    { "id": "room-1", "name": "Гостиная" },
+    { "id": "room-2", "name": "Кладовая" },
+    { "id": "room-3", "name": "Спальня" }
+  ],
+  "containers": [
+    { "id": "box-1", "roomId": "room-1", "name": "Коробка с проводами", "description": "Нижняя полка стеллажа" },
+    { "id": "box-2", "roomId": "room-1", "name": "Ящик комода", "description": "Верхний ящик" },
+    { "id": "box-3", "roomId": "room-2", "name": "Ящик с инструментами", "description": "Красный пластиковый ящик" },
+    { "id": "box-4", "roomId": "room-2", "name": "Коробка «Зима»", "description": "Верхняя полка" },
+    { "id": "box-5", "roomId": "room-3", "name": "Книжная полка", "description": "Над столом" }
+  ],
+  "items": [
+    { "id": "item-1", "containerId": "box-1", "name": "HDMI-кабель", "typeId": "cables", "quantity": 3, "note": "" },
+    { "id": "item-2", "containerId": "box-1", "name": "Зарядка USB-C", "typeId": "cables", "quantity": 2, "note": "" },
+    { "id": "item-3", "containerId": "box-1", "name": "Удлинитель", "typeId": "cables", "quantity": 1, "note": "5 розеток" },
+    { "id": "item-4", "containerId": "box-2", "name": "Настольная игра «Каркассон»", "typeId": "games", "quantity": 1, "note": "" },
+    { "id": "item-5", "containerId": "box-2", "name": "Колода карт", "typeId": "games", "quantity": 2, "note": "" },
+    { "id": "item-6", "containerId": "box-2", "name": "Старый смартфон", "typeId": "electronics", "quantity": 1, "note": "Не включается" },
+    { "id": "item-7", "containerId": "box-3", "name": "Отвёртка крестовая", "typeId": "tools", "quantity": 2, "note": "" },
+    { "id": "item-8", "containerId": "box-3", "name": "Молоток", "typeId": "tools", "quantity": 1, "note": "" },
+    { "id": "item-9", "containerId": "box-3", "name": "Рулетка 5 м", "typeId": "tools", "quantity": 1, "note": "" },
+    { "id": "item-10", "containerId": "box-4", "name": "Шерстяной шарф", "typeId": "clothes", "quantity": 2, "note": "" },
+    { "id": "item-11", "containerId": "box-4", "name": "Перчатки", "typeId": "clothes", "quantity": 3, "note": "" },
+    { "id": "item-12", "containerId": "box-5", "name": "«Мастер и Маргарита»", "typeId": "books", "quantity": 1, "note": "" },
+    { "id": "item-13", "containerId": "box-5", "name": "Паспорт на холодильник", "typeId": "books", "quantity": 1, "note": "" }
+  ]
+}

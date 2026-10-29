@@ -1,0 +1,12 @@
+[
+  { "id": "electronics", "category": "Электроника", "icon": "💻" },
+  { "id": "cables", "category": "Кабели и зарядки", "icon": "🔌" },
+  { "id": "tools", "category": "Инструменты", "icon": "🔧" },
+  { "id": "clothes", "category": "Одежда", "icon": "🧣" },
+  { "id": "books", "category": "Книги и документы", "icon": "📚" },
+  { "id": "kitchen", "category": "Посуда и кухня", "icon": "🍳" },
+  { "id": "games", "category": "Игры и хобби", "icon": "🎲" },
+  { "id": "sport", "category": "Спорт и туризм", "icon": "⛺" },
+  { "id": "household", "category": "Бытовая химия", "icon": "🧴" },
+  { "id": "other", "category": "Прочее", "icon": "📎" }
+]

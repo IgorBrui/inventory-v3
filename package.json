@@ -1,0 +1,40 @@
+{
+  "name": "inventory-v3",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "expo": "^58.0.21",
+    "expo-build-properties": "~58.0.11",
+    "expo-camera": "~58.0.14",
+    "expo-constants": "~58.0.14",
+    "expo-file-system": "~58.0.13",
+    "expo-linking": "~58.0.15",
+    "expo-router": "~58.0.28",
+    "expo-sharing": "~58.0.21",
+    "expo-sqlite": "~58.0.14",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-qrcode-svg": "^6.3.26",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-screens": "~4.30.0",
+    "react-native-svg": "15.16.0",
+    "rxjs": "^7.8.2",
+    "zod": "^4.6.7",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "api": "node server/api.mjs"
+  },
+  "private": true
+}
